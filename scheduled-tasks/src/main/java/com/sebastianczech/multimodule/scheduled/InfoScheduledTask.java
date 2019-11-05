@@ -1,5 +1,6 @@
 package com.sebastianczech.multimodule.scheduled;
 
+import com.sebastiaczech.multimodule.model.InfoModel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.scheduling.annotation.Scheduled;
@@ -17,7 +18,8 @@ public class InfoScheduledTask {
 
     @Scheduled(fixedDelay = 1000)
     public void scheduleFixedDelayTask() {
-        log.info("SCHEDULED TASK - INFO - {}", dateFormat.format(new Date()));
+        InfoModel info = new InfoModel("1.0.0");
+        log.info("SCHEDULED TASK - INFO - {} - {}", dateFormat.format(new Date()), info.getVersion());
     }
 
 }
