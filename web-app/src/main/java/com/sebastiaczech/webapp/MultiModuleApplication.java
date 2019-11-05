@@ -1,4 +1,4 @@
-package com.sebastiaczech.multimodule;
+package com.sebastiaczech.webapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

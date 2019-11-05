@@ -1,6 +1,6 @@
-package com.sebastiaczech.multimodule.controller;
+package com.sebastiaczech.webapp.controller;
 
-import com.sebastiaczech.multimodule.model.InfoModel;
+import com.sebastiaczech.webapp.model.InfoModel;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 

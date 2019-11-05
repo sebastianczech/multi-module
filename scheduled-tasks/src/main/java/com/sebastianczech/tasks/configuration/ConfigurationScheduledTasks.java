@@ -1,4 +1,4 @@
-package com.sebastianczech.multimodule.configuration;
+package com.sebastianczech.tasks.configuration;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.scheduling.annotation.EnableScheduling;

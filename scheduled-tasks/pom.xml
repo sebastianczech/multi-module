@@ -11,13 +11,14 @@
     <packaging>jar</packaging>
 
     <artifactId>scheduled-tasks</artifactId>
+    <version>0.0.1</version>
+
     <dependencies>
         <dependency>
             <groupId>com.sebastiaczech</groupId>
-            <artifactId>multi-module</artifactId>
+            <artifactId>web-app</artifactId>
             <version>0.0.1</version>
         </dependency>
     </dependencies>
-
 
 </project>

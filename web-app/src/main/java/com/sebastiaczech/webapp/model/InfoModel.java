@@ -1,4 +1,4 @@
-package com.sebastiaczech.multimodule.model;
+package com.sebastiaczech.webapp.model;
 
 import lombok.*;
 
