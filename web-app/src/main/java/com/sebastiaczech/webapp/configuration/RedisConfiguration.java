@@ -12,7 +12,7 @@ import org.springframework.data.redis.repository.configuration.EnableRedisReposi
 public class RedisConfiguration {
 
     @Bean
-    private JedisConnectionFactory redisConnectionFactory() {
+    public JedisConnectionFactory redisConnectionFactory() {
 
         RedisStandaloneConfiguration config = new RedisStandaloneConfiguration("SERVER", 6379);
         config.setPassword("PASSWORD");
